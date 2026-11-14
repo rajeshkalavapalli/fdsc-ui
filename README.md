@@ -38,3 +38,7 @@
 ### V 1.0.8
 
 - Enquiry button locked for one minute after a successful submit to avoid double enquiries
+
+### V 1.0.9
+
+- Added fourth highlight "One destination for distance education in Venkatagiri" and aligned the numbers strip in 4 equal columns with the words beside each number
