@@ -75,7 +75,7 @@ export function MobileBar() {
     >
       <Button href={`tel:${contact.phone}`} startIcon={<PhoneOutlinedIcon />} sx={item}>Call</Button>
       <Button href={whatsappLink()} target="_blank" rel="noreferrer" startIcon={<WhatsAppIcon />} sx={item}>WhatsApp</Button>
-      <Button component={RouterLink} to="/contact" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />} sx={{ flex: 1.3, minHeight: 48 }}>
+      <Button component={RouterLink} to="/contact#enquiry" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />} sx={{ flex: 1.3, minHeight: 48 }}>
         Enquire
       </Button>
     </Paper>
@@ -117,7 +117,7 @@ export function Band() {
       <Container className="reveal">
         <Typography variant="h2" sx={{ maxWidth: 900, mx: 'auto', mb: 4 }}>Let&apos;s Build Your Future Together!</Typography>
         <Stack direction="row" spacing={1.5} sx={{ justifyContent: 'center', flexWrap: 'wrap', rowGap: 1.5 }}>
-          <Button component={RouterLink} to="/contact" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />}>Enquire Now</Button>
+          <Button component={RouterLink} to="/contact#enquiry" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />}>Enquire Now</Button>
           <Button href={`tel:${contact.phone}`} variant="outlined" sx={{ color: '#fff', borderColor: 'rgba(255,255,255,.4)', '&:hover': { borderColor: '#fff' } }}>
             Call {contact.phoneDisplay}
           </Button>

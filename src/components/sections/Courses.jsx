@@ -39,7 +39,7 @@ export default function Courses({ head = true }) {
                   ))}
                 </List>
                 {c.note && <Typography variant="body2" sx={{ mb: 2, p: 1.5, borderRadius: 1, bgcolor: 'background.default', color: 'text.disabled', fontSize: 13 }}>{c.note}</Typography>}
-                <Button component={RouterLink} to={`/contact?course=${c.id}`} endIcon={<NorthEastIcon />} sx={{ mt: 'auto', alignSelf: 'flex-start', px: 0, color: 'primary.main', '&:hover': { bgcolor: 'transparent', textDecoration: 'underline' } }}>
+                <Button component={RouterLink} to={`/contact?course=${c.id}#enquiry`} endIcon={<NorthEastIcon />} sx={{ mt: 'auto', alignSelf: 'flex-start', px: 0, color: 'primary.main', '&:hover': { bgcolor: 'transparent', textDecoration: 'underline' } }}>
                   Enquire about {c.title}
                 </Button>
               </CardContent>

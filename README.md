@@ -42,3 +42,11 @@
 ### V 1.0.9
 
 - Added fourth highlight "One destination for distance education in Venkatagiri" and aligned the numbers strip in 4 equal columns with the words beside each number
+
+### V 1.0.10
+
+- Live on fdscedu.com: full share-preview links, canonical address, sitemap and robots for Google
+
+### V 1.0.11
+
+- All Enquire buttons now open the enquiry form directly (not the top of the contact page), with the chosen course already selected

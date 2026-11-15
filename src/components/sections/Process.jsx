@@ -72,7 +72,7 @@ export default function Process() {
         ))}
       </Stepper>
       <Box className="reveal" sx={{ mt: 7.5 }}>
-        <Button component={RouterLink} to="/contact" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />}>Start with step one</Button>
+        <Button component={RouterLink} to="/contact#enquiry" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />}>Start with step one</Button>
       </Box>
     </Section>
   )

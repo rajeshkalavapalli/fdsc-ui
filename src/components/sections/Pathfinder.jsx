@@ -45,7 +45,7 @@ export default function Pathfinder() {
               <Typography variant="h3" sx={{ my: 1.25 }}>{course.title}</Typography>
               <Typography sx={{ color: 'brand.onNavy2', mb: 3, maxWidth: 460 }}>{sel.why}</Typography>
               <Box sx={{ mt: 'auto', display: 'flex', gap: 2.5, alignItems: 'center', flexWrap: 'wrap' }}>
-                <Button component={RouterLink} to={`/contact?course=${course.id}`} variant="contained" color="secondary" endIcon={<ArrowForwardIcon />}>
+                <Button component={RouterLink} to={`/contact?course=${course.id}#enquiry`} variant="contained" color="secondary" endIcon={<ArrowForwardIcon />}>
                   Enquire for {course.title}
                 </Button>
                 <Link component={RouterLink} to={`/courses#${course.id}`} color="inherit" sx={{ fontWeight: 600 }}>View details</Link>

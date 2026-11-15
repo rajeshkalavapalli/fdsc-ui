@@ -52,7 +52,8 @@ export default function Contact() {
               <Box component="iframe" title="FDSC location map" src={mapsEmbed} loading="lazy" referrerPolicy="no-referrer-when-downgrade" sx={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 0, filter: 'grayscale(.7) contrast(.95)' }} />
             </Box>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ p: { xs: 3.5, md: 6.5 } }}>
+          {/* id="enquiry": every "Enquire" button on the site links to /contact#enquiry and lands here. */}
+          <Grid id="enquiry" size={{ xs: 12, md: 6 }} sx={{ p: { xs: 3.5, md: 6.5 }, scrollMarginTop: 100 }}>
             <EnquiryForm />
           </Grid>
         </Grid>

@@ -113,7 +113,7 @@ export default function Hero() {
             <Button component={RouterLink} to="/courses" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />} sx={{ flex: { xs: 1, sm: 'none' } }}>
               Explore Courses
             </Button>
-            <Button component={RouterLink} to="/contact" variant="outlined" sx={{ flex: { xs: 1, sm: 'none' }, color: '#fff', borderColor: 'rgba(255,255,255,.35)', '&:hover': { borderColor: '#fff', bgcolor: 'rgba(255,255,255,.06)' } }}>
+            <Button component={RouterLink} to="/contact#enquiry" variant="outlined" sx={{ flex: { xs: 1, sm: 'none' }, color: '#fff', borderColor: 'rgba(255,255,255,.35)', '&:hover': { borderColor: '#fff', bgcolor: 'rgba(255,255,255,.06)' } }}>
               Enquire Now
             </Button>
             <IconButton href={whatsappLink()} target="_blank" rel="noreferrer" aria-label="WhatsApp FDSC" sx={{ width: 50, height: 50, color: 'secondary.light', border: '1px solid rgba(255,255,255,.3)', '&:hover': { bgcolor: 'secondary.main', color: 'primary.main' } }}>

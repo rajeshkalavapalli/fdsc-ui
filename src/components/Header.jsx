@@ -84,7 +84,7 @@ export default function Header() {
               >
                 {contact.phoneDisplay}
               </Button>
-              <Button component={RouterLink} to="/contact" size="small" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />} sx={{ display: { xs: 'none', sm: 'inline-flex' } }}>
+              <Button component={RouterLink} to="/contact#enquiry" size="small" variant="contained" color="secondary" endIcon={<ArrowForwardIcon />} sx={{ display: { xs: 'none', sm: 'inline-flex' } }}>
                 Enquire Now
               </Button>
               <IconButton

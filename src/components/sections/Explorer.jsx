@@ -86,7 +86,7 @@ export default function Explorer() {
               </List>
               {c.note && <Typography variant="body2" sx={{ mb: 2, p: 1.5, borderRadius: 1, bgcolor: 'background.default', color: 'text.disabled', fontSize: 13 }}>{c.note}</Typography>}
               <Box sx={{ mt: 'auto', display: 'flex', alignItems: 'center', gap: 2.5, flexWrap: 'wrap', pt: 1 }}>
-                <Button component={RouterLink} to={`/contact?course=${c.id}`} variant="contained" endIcon={<ArrowForwardIcon />}>Enquire about {c.title}</Button>
+                <Button component={RouterLink} to={`/contact?course=${c.id}#enquiry`} variant="contained" endIcon={<ArrowForwardIcon />}>Enquire about {c.title}</Button>
                 <Link component={RouterLink} to={`/courses#${c.id}`} color="inherit" sx={{ fontWeight: 600 }}>Full details</Link>
               </Box>
             </Box>
